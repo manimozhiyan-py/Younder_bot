@@ -1,0 +1,6 @@
+CREATE TABLE employee (
+id AUTO INCREMENT PRIMARY KEY,
+name VARCHAR2(30),
+salary INT(30),
+email VARCHAR2(30) UNIQUE);
+
