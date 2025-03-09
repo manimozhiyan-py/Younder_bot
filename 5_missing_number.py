@@ -5,11 +5,7 @@ def missing_num(int_list):
         if int_list[i+1] == int_list[i] +1:
             pass
         else:
-            return int_list[
-
-
-            ] +1
+            return int_list[i] +1
 
 print(f"The Missing Number is : {
 missing_num(int_list)}")
-
